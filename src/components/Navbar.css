@@ -1,0 +1,130 @@
+/* Navbar.css */
+
+.navbar {
+        background-color: #fff;
+        color: #333;
+        padding: 35px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 140px;
+        margin-right: 140px;
+        margin-top: 20px;
+        border-radius: 30px;
+
+}
+
+.profile img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-right: 10px;
+        margin-left: 20px
+}
+
+.profile span {
+        font-weight: bold;
+        font-size: 16px;
+}
+
+.links {
+        flex-grow: 1;
+        display: flex;
+        justify-content: center;
+}
+
+.links ul {
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+}
+
+.links li {
+        margin-right: 40px;
+}
+
+.links a {
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+        font-size: 16px;
+        transition: color 0.3s ease;
+        /* Add smooth color transition */
+}
+
+.links a:hover {
+        color: #007bff;
+        /* Change color on hover */
+}
+
+.burger-menu {
+        display: none;
+        flex-direction: column;
+        cursor: pointer;
+}
+
+.bar {
+        width: 25px;
+        height: 3px;
+        background-color: #333;
+        margin: 5px 0;
+}
+
+@media (max-width: 600px) {
+        .navbar {
+                background-color: #fff;
+                color: #333;
+                /* padding: 35px; */
+                /* display: flex; */
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                margin-left: 3px;
+                margin-right: 3px;
+                margin-top: 10px;
+                border-radius: 10px;
+                /* Keep items in a row in mobile view */
+                /* align-items: center; */
+        }
+
+        .profile {
+                order: 1;
+                /* Move profile to the leftmost side */
+                margin-bottom: 5px;
+                margin-left: 15px
+        }
+
+        .links {
+                display: none;
+                width: 100%;
+                text-align: center;
+                order: 100
+        }
+
+        .links.mobile {
+                display: flex;
+                flex-direction: row;
+        }
+
+        .list {
+                display: flex;
+                flex-direction: column;
+        }
+
+        .links.mobile li {
+                margin-right: 0;
+                margin-bottom: 10px;
+        }
+
+        .links.mobile a {
+                color: #333;
+        }
+
+        .burger-menu {
+                display: flex;
+                order: 10;
+                /* Move burger menu to the rightmost side */
+                margin-right: 30px
+        }
+}
