@@ -1,3 +1,5 @@
+
+
 .container {
         margin-top: 10vh;
         display: flex;
@@ -28,7 +30,7 @@
         border-radius: 10px;
 
         height: auto;
-        width: 70vh;
+        width: 60vh;
         text-align: center;
         /* Center the text horizontally */
         display: flex;
@@ -81,7 +83,7 @@
 
 }
 
-@media only screen and (min-width: 1200px){
+@media only screen and (min-width: 1200px) {
         .container {
                 margin-top: 10vh;
                 display: flex;
@@ -93,7 +95,7 @@
                 width: 60vh;
                 height: 60vh;
                 border-radius: 50%;
-                margin-left: 0;
+                margin-left: 0px;
                 margin-top: 2vh;
         }
         
@@ -113,7 +115,7 @@
                 border-radius: 10px;
         
                 height: auto;
-                width: 70vh;
+                width: 60vh;
                 text-align: center;
                 /* Center the text horizontally */
                 display: flex;
@@ -127,12 +129,12 @@
                 background-color: #1C1B23;
                 border: 0.5px solid #db343f;
                 border-radius: 10px;
-                height: auto;
+                height: 30vh;
                 /* font-size: large; */
                 width: 70vh;
-                margin-left: 10vh;
+                margin-left: 0vh;
                 padding: 1vh;
-                margin-right: 10px;
+                /* margin-right: 10px; */
         }
         
         .info-div2 .title {
