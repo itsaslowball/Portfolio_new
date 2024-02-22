@@ -1,49 +1,14 @@
 import React from "react";
 import "./Projects.css";
 import { ProjectCard } from "./ProjectCard";
+import data from '../data.json'
 
-const projectsDetails = [
-  {
-    image: "./event1.jpg",
-    name: "Project 1",
-    description:
-      "This is my project which has been solved and used by me andsio aoidao asifjas aia aidfasiuasf This is my project which has been solved and used by me andsio aoidao asifjas aia aidfasiuas",
-    tags: ["NestJs", "ReactJs", "FullStack"],
-    github: "https://github.com",
-    demo: "https://demo.com",
-  },
-  {
-    image: "./profile.jpg",
-    name: "Project 2",
-    description:
-      "This is my project which has been solved and used by me andsio aoidao asifjas aia aidfasiuasf",
-    tags: ["MongoDb", "ReactJs", "FullStack"],
-    github: "https://github.com",
-    demo: "",
-  },
-  {
-    image: "./event1.jpg",
-    name: "Project 3",
-    description:
-      "This is my project which has been solved and used by me andsio aoidao asifjas aia aidfasiuasf",
-    tags: ["Web development", "ReactJs", "FullStack"],
-    github: "https://github.com",
-    demo: "https://demo.com",
-  },
-  {
-        image: "./event1.jpg",
-        name: "Project 4",
-        description:
-          "This is my project which has been solved and used by me andsio aoidao asifjas aia aidfasiuasf This is my project which has been solved and used by me andsio aoidao asifjas aia aidfasiuas",
-        tags: ["NestJs", "ReactJs", "FullStack"],
-        github: "https://github.com",
-        demo: "https://demo.com",
-      },
-];
+
 
 export const Projects = () => {
+  const projectsDetails = data.Projects
   return (
-    <div style={{ marginTop: "10vh" }}>
+    <div style={{ marginTop: "10vh" }} id="Projects">
       <h1
         style={{
           textAlign: "center",

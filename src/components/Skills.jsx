@@ -1,40 +1,13 @@
 import React from "react";
 import "./Skills.css";
 import { SkillCard } from "./SkillCard";
+import data from '../data.json'
 
-const skillData = [
-  {
-    title: "Backend",
-    skills: ["NodeJs", "ExpressJs", "NestJs"],
-  },
-  {
-    title: "Frontend",
-    skills: ["HTML", "CSS", "ReactJs", "NextJs", "Bootstrap", "Tailwind-CSS"],
-  },
-  {
-    title: "Programming Languages",
-    skills: [
-      "C",
-      "C++",
-      "Javascript",
-      "Typescript",
-      "C# (basic)",
-      "Python (basic)",
-    ],
-  },
-  {
-    title: "Databases",
-    skills: ["MongoDB", "SQL"],
-  },
-  {
-    title: "Others",
-    skills: ["Git", "Data Structures", "DBMS"],
-  },
-];
 
 export const Skills = () => {
+  const skillData = data.Skills;
   return (
-    <div className="skills">
+    <div className="skills" id="Skills">
       <h1
         style={{
           textAlign: "center",

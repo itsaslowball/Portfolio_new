@@ -1,0 +1,126 @@
+
+{
+        "Hero": {
+                "intro": "Hey👋, Myself Priyanshu",
+                "title": "Software Developer",
+                "description": "I have worked on various projects which across several domains like frontend, backend, fullstack. I have created several personal projects on MERN stack. Recently i learnt Nextjs. Now I am learning NestJs which is roboust ExpressJs framework",
+                "resume": "https://resume.com"
+        },
+        "Projects": [
+                {
+                        "image": "./event1.jpg",
+                        "name": "Project 1",
+                        "description": "This is my project which has been solved and used by me andsio aoidao asifjas aia aidfasiuasf This is my project which has been solved and used by me andsio aoidao asifjas aia aidfasiuas",
+                        "tags": [
+                                "NestJs",
+                                "ReactJs",
+                                "FullStack"
+                        ],
+                        "github": "https://github.com",
+                        "demo": "https://demo.com"
+                },
+                {
+                        "image": "./profile.jpg",
+                        "name": "Project 2",
+                        "description": "This is my project which has been solved and used by me andsio aoidao asifjas aia aidfasiuasf",
+                        "tags": [
+                                "MongoDb",
+                                "ReactJs",
+                                "FullStack"
+                        ],
+                        "github": "https://github.com",
+                        "demo": ""
+                }
+        ],
+        "Skills": [
+                {
+                        "title": "Backend",
+                        "skills": [
+                                "NodeJs",
+                                "ExpressJs",
+                                "NestJs"
+                        ]
+                },
+                {
+                        "title": "Frontend",
+                        "skills": [
+                                "HTML",
+                                "CSS",
+                                "ReactJs",
+                                "NextJs",
+                                "Bootstrap",
+                                "Tailwind-CSS"
+                        ]
+                },
+                {
+                        "title": "Programming Languages",
+                        "skills": [
+                                "C",
+                                "C++",
+                                "Javascript",
+                                "Typescript",
+                                "C# (basic)",
+                                "Python (basic)"
+                        ]
+                },
+                {
+                        "title": "Databases",
+                        "skills": [
+                                "MongoDB",
+                                "SQL"
+                        ]
+                },
+                {
+                        "title": "Others",
+                        "skills": [
+                                "Git",
+                                "Data Structures",
+                                "DBMS"
+                        ]
+                }
+        ],
+        "WorkExperience":[
+                {
+                        "startDate": "04-01-2024",
+                        "endDate": "",
+                        "company": "Contentstack",
+                        "designation": "Associate Software Engineer Intern",
+                        "description": "Worked in a team to create the company's internal website called TechX using NextJs. Currently working with the Automation Hub team. ",
+                        "jobLocation": "remote"
+                      },
+                      {
+                        "startDate": "04-01-2023",
+                        "endDate": "",
+                        "company": "CSI-JSSSTU",
+                        "designation": "General Secretary",
+                        "description": "Over the span of 1 year, I conducted many events and taught many students. I also organised workshops related to web-development and ML",
+                        "jobLocation": "Mysuru"
+                      }
+        ],
+        "Education":[
+                {
+                        "startDate": "2020",
+                        "endDate":"2024",
+                        "institute":"JSS Science And Technology University",
+                        "degree": "B.E in Information Science and Engineering",
+                        "location": "Mysuru, Karnataka",
+                        "marks": "9.01 CGPA"
+                },
+                {
+                        "startDate": "2017",
+                        "endDate":"2019",
+                        "institute":"St Josheph's Senior Secondary School",
+                       "degree": "Intermediate",
+                        "location": "Muzzafarpur, Bihar",
+                        "marks": "78%"
+                },
+                {
+                        "startDate": "2012",
+                        "endDate":"2017",
+                        "institute":"St. Xavier's Higher Secondary School",
+                        "degree": "Matriculation",
+                        "location": "Bettiah, Bihar",
+                        "marks": "10 CGPA"
+                }
+        ]
+} 

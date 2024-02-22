@@ -6,7 +6,7 @@ const EducationData = [];
 
 export const Experiences = () => {
   return (
-    <div className="experiences">
+    <div className="experiences" id="Work">
       <div style={{display:'flex', flexDirection:'column', color:'white', justifyContent:'center', alignItems:'center'}}>
         <h1 style={{alignItems:'center', marginBottom:'20px'}}>Work Experience</h1>
         <WorkExperience />

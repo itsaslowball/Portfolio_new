@@ -1,32 +1,9 @@
 import React from 'react'
 import './WorkExperience.css'
-const EducationData = [
-        {
-                startDate: '2020',
-                endDate:'2024',
-                institute:'JSS Science And Technology University',
-                degree: 'B.E in Information Science and Engineering',
-                location: 'Mysuru, Karnataka',
-                marks: '9.01 CGPA'
-        },
-        {
-                startDate: '2017',
-                endDate:'2019',
-                institute:`St. Josheph's Senior Secondary School`,
-                degree: 'Intermediate',
-                location: 'Muzzafarpur, Bihar',
-                marks: '78%'
-        },
-        {
-                startDate: '2012',
-                endDate:'2017',
-                institute:`St. Xavier's Higher Secondary School`,
-                degree: 'Matriculation',
-                location: 'Bettiah, Bihar',
-                marks: '10 CGPA'
-        }
-]
+import data from '../data.json'
+
 export const Education = () => {
+        const EducationData = data.Education
   return (
         <div className="edu-card" id='Education'
         // style={{width:'500px'}}

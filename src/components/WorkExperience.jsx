@@ -1,29 +1,11 @@
 import React from "react";
 import './WorkExperience.css'
-
-
-const WorkExperienceData = [
-  {
-    startDate: "04-01-2024",
-    endDate: "",
-    company: "Contentstack",
-    designation: "Associate Software Engineer Intern",
-    description: `Worked in a team to create the company's internal website called TechX using NextJs. Currently working with the Automation Hub team. `,
-    jobLocation: "remote",
-  },
-  {
-    startDate: "04-01-2023",
-    endDate: "",
-    company: "CSI-JSSSTU",
-    designation: "General Secretary",
-    description: `Over the span of 1 year, I conducted many events and taught many students. I also organised workshops related to web-development and ML `,
-    jobLocation: "Mysuru",
-  },
-];
+import data from '../data.json'
 
 export const WorkExperience = () => {
+  const WorkExperienceData = data.WorkExperience;
   return (
-    <div className="work-card"
+    <div className="work-card" id="Work"
     >
 
       {WorkExperienceData.map((exp) => (

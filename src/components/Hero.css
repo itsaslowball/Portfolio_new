@@ -68,10 +68,10 @@
 
 .info-div3 {
         background-color: #1C1B23;
-        font-size: xx-large;
+        font-size: 30px;
         border: 0.5px solid #3498db;
         border-radius: 10px;
-        height: auto;
+        height: 7vh;
         width: 30vh;
 
         text-align: center;
@@ -155,10 +155,10 @@
         
         .info-div3 {
                 background-color: #1C1B23;
-                font-size: xx-large;
+                font-size: 50px;
                 border: 0.5px solid #3498db;
                 border-radius: 10px;
-                height: auto;
+                height: 7vh;
                 width: 30vh;
         
                 text-align: center;
