@@ -1,18 +1,32 @@
-.tags{
-        border: 0.5px solid #5aabe0;
-        border-radius: 5px;
-        color: white;
-        width: auto;
-        height: auto;
-        padding: 3px;
+.project-card {
+      width: 53.2vh;
+      background-color: #1C1B23;
+      margin: 2vh;
+      height:auto;
+      transition: transform 0.3s ease-in-out;
+}
+@media (min-width: 764px) {
+      .project-card{
+      background-color: #1C1B23;
+            width: 53vh;
+      }
+}
+.tags {
+      border: 0.5px solid #41494d;
+      border-radius: 5px;
+      color: #8B8A90;
+      background-color: #14131A;
+      width: auto;
+      height: auto;
+      padding: 3px;
 }
 
-.card-img-top{
-      max-height:200px;
-      min-height: 200px;
+.card-img-top {
+      max-height: 27vh;
+      min-height: 27vh;
 }
 
-.card:hover{
+.card:hover {
       /* border:1px solid #d6051a; */
       border-width: 0.5px;
       border-right-color: #5aabe0;
@@ -20,5 +34,15 @@
       border-top-color: wheat;
       border-bottom-color: green;
       border-style: solid;
-      box-shadow:0px 10px 20px rgb(66, 66, 66);
+      box-shadow: 0px 10px 20px rgb(66, 66, 66);
+      transform: scale(1.05);
+}
+.tags:hover{
+      border-width: 0.5px;
+            /* border-right-color: #5aabe0; */
+            border-left-color: red;
+            /* border-top-color: wheat; */
+            /* border-bottom-color: green; */
+            border-style: solid;
+            box-shadow: 0px 4px 10px rgb(66, 66, 66);
 }

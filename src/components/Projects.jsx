@@ -43,13 +43,13 @@ const projectsDetails = [
 
 export const Projects = () => {
   return (
-    <div style={{ marginTop: "100px" }}>
+    <div style={{ marginTop: "10vh" }}>
       <h1
         style={{
           textAlign: "center",
           color: "White",
-          marginBottom: "30px",
-          fontSize: "40px",
+          marginBottom: "3vh",
+          fontSize: "4vh",
         }}
       >
         Projects

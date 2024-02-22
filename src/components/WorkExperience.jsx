@@ -19,14 +19,6 @@ const WorkExperienceData = [
     description: `Over the span of 1 year, I conducted many events and taught many students. I also organised workshops related to web-development and ML `,
     jobLocation: "Mysuru",
   },
-  {
-    startDate: "04-01-2024",
-    endDate: "",
-    company: "Contentstack",
-    designation: "Associate Software Engineer Intern",
-    description: `Worked in a team to create the company's internal website called TechX using NextJs. Currently working with the Automation Hub team. `,
-    jobLocation: "remote",
-  },
 ];
 
 export const WorkExperience = () => {

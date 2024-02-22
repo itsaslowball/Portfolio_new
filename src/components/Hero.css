@@ -1,22 +1,26 @@
 .container {
-        margin-top: 50px;
+        margin-top: 10vh;
         display: flex;
-        display-direction: row;
+        flex-direction: row;
+        width: 100%;
 }
 
 .profile-picture img {
-        width: 600px;
-        height: 600px;
+        object-fit: cover;
+        width: 60vh;
+        height: 60vh;
         border-radius: 50%;
-        margin-left: -100px
+        margin-left: 5vh;
+        margin-top: 2vh;
 }
 
 .info {
         color: white;
-        margin-left: 200px;
+        margin-left: 10vh;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
+        gap: 3vh;
 }
 
 .info-div1 {
@@ -25,14 +29,14 @@
         border: 0.5px solid #3498db;
         border-radius: 10px;
 
-        height: 80px;
-        width: 400px;
+        height: auto;
+        width: 70vh;
         text-align: center;
         /* Center the text horizontally */
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: -100px;
+        margin-left: -10vh;
 
 }
 
@@ -40,12 +44,12 @@
         background-color: #1C1B23;
         border: 0.5px solid #db343f;
         border-radius: 10px;
-        height: 300px;
-        font-size: large;
-        width: 600px;
-        margin-left: 100px;
-        padding:20px;
-        
+        height: auto;
+        /* font-size: large; */
+        width: 80vh;
+        margin-left: 10vh;
+        padding:1vh;
+        margin-right: 10px;
 }
 
 .info-div2 .title {
@@ -59,9 +63,6 @@
 .info-div2 .description {
         text-align: center;
         color: #8B8A90;
-        /* display: flex; */
-        /* justify-content: center; */
-        /* align-items: center; */
 }
 
 .info-div3 {
@@ -69,28 +70,24 @@
         font-size: xx-large;
         border: 0.5px solid #3498db;
         border-radius: 10px;
-        height: 80px;
-        width: 200px;
+        height: auto;
+        width: 30vh;
 
         text-align: center;
         /* Center the text horizontally */
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: -100px;
+        margin-left: -10vh;
 
 }
 
-.container {
-        margin-top: 50px;
-        display: flex;
-        flex-direction: row;
-      }
-      
+
       /* Media Query for Smaller Screens */
       @media (max-width: 768px) {
         .container {
           flex-direction: column;
+          margin-top: 2vh;
         }
         .profile-picture{
                 display: flex;
@@ -100,10 +97,11 @@
       
         .profile-picture img {
           width: 80%; /* Adjust to fit the container */
-          height: 300px;
+          object-fit: cover;
+          height: 30vh;
           border-radius: 50%;
           margin-left: 0px;
-          margin-bottom: 30px;
+          margin-bottom: 3vh;
         }
       
         .info {
@@ -123,15 +121,15 @@
           width: 95%; /* Adjust width for smaller screens */
           height: auto;
           margin-left: 0; /* Remove margin for smaller screens */
-          padding: 10px; /* Adjust padding for smaller screens */
-          margin-top:10px;
+          padding: 1vh; /* Adjust padding for smaller screens */
+          margin-top:1vh;
         }
       
         .info-div3 {
                 align-self: center;
           width: 95%; /* Adjust width for smaller screens */
           margin-left: 0; /* Remove margin for smaller screens */
-          margin-top:10px;
+          margin-top:1vh;
         }
       }
       

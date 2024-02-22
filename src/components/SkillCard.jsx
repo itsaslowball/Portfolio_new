@@ -6,11 +6,10 @@ export const SkillCard = (params) => {
       <div className="title">{params.title}</div>
       <div
         style={{
-          marginTop: "15px",
+          marginTop: "0.938vh",
           display: "flex",
           alignItems: "center",
           flexWrap: "wrap",
-          gap: "4px",
         }}
       >
         {params.skills.map((skill, index) => (

@@ -34,13 +34,13 @@ const skillData = [
 
 export const Skills = () => {
   return (
-    <div style={{ marginTop: "100px" }}>
+    <div className="skills">
       <h1
         style={{
           textAlign: "center",
           color: "White",
-          marginBottom: "30px",
-          fontSize: "40px",
+          marginBottom: "1.875 rem",
+          fontSize: "2.5 rem",
         }}
       >
         Skills
@@ -50,7 +50,7 @@ export const Skills = () => {
           display: "flex",
           justifyContent: "space-evenly",
           flexWrap: "wrap",
-          gap:'10px'
+          // gap: "0.625 rem",
         }}
       >
         <SkillCard title={skillData[0].title} skills={skillData[0].skills} />

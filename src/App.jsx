@@ -9,13 +9,13 @@ function App() {
 
 
   return (
-    <>
+    <div style={{height:'100%', width:'100%'}}>
      <Navbar />
      <Hero />
      <Projects />
      <Skills />
      <Experiences />
-    </>
+    </div>
   )
 }
 

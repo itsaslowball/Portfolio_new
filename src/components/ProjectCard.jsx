@@ -4,13 +4,8 @@ import "./Projects.css";
 export const ProjectCard = (params) => {
   return (
     <div
-      class="card"
-      style={{
-        width: "24.5rem",
-        maxHeight: "800px",
-        backgroundColor: "#1C1B23",
-        marginBottom: "10px",
-      }}
+      class="card project-card"
+      style={{backgroundColor: '#1C1B23'}}
     >
       <img src={params.image} class="card-img-top" alt="..." />
       <div class="card-body">
@@ -20,17 +15,21 @@ export const ProjectCard = (params) => {
         <p class="card-text" style={{ color: "#8B8A90" }}>
           {params.description}
         </p>
-        <div style={{ display: "flex", flexWrap: "wrap", gap: "15px" }}>
+        <div style={{ display: "flex", flexWrap: "wrap", gap: "1.501vh" }}>
           {params.tags.map((tag) => (
             <p className="tags">{tag}</p>
           ))}
         </div>
-        <div >
+        <div>
           <a href={params.github} class="btn btn-outline-success">
             GitHub
           </a>
           {params.demo !== "" && (
-            <a href={params.demo} style={{marginLeft:'10px'}} class="btn btn-outline-warning ">
+            <a
+              href={params.demo}
+              style={{ marginLeft: "1vh" }}
+              class="btn btn-outline-warning "
+            >
               Live
             </a>
           )}
