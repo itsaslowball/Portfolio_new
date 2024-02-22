@@ -4,10 +4,11 @@
         flex-direction: row;
         margin-top: 130px;
         margin-bottom: 20px;
+        justify-content: space-evenly;
 }
 
 .work-card {
-        width: auto;
+        width: 70vh;
         background-color: #1C1B23;
         margin-left: 5vh;
         padding: 7vh;
@@ -47,7 +48,18 @@
         box-shadow: 0px 10px 20px rgb(66, 66, 66);
 }
 
-@media only screen and (max-width: 1200px) {
+
+/* @media only screen and (min-width: 1200px){
+        .edu-card{
+                width: auto;
+        }
+        .work-card{
+                width: 70vh;
+        }
+} */
+
+
+@media only screen and (max-width: 900px) {
         .experiences{
                 display: flex;
                 flex-direction: column;

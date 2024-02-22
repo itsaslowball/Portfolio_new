@@ -9,7 +9,6 @@
         width: 60vh;
         height: 60vh;
         border-radius: 50%;
-        margin-left: 5vh;
         margin-top: 2vh;
 }
 
@@ -94,13 +93,13 @@
                 width: 60vh;
                 height: 60vh;
                 border-radius: 50%;
-                margin-left: -10vh;
+                margin-left: 0;
                 margin-top: 2vh;
         }
         
         .info {
                 color: white;
-                margin-left: 10vh;
+                margin-left: 20vh;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-evenly;
