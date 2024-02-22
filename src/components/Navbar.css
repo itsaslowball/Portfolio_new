@@ -71,7 +71,7 @@
         margin: 5px 0;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
         .navbar {
                 background-color: #fff;
                 color: #333;

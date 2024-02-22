@@ -2,7 +2,6 @@
         margin-top: 10vh;
         display: flex;
         flex-direction: row;
-        width: 100%;
 }
 
 .profile-picture img {
@@ -48,7 +47,7 @@
         /* font-size: large; */
         width: 80vh;
         margin-left: 10vh;
-        padding:1vh;
+        padding: 1vh;
         margin-right: 10px;
 }
 
@@ -56,7 +55,8 @@
         font-size: xx-large;
         text-align: center;
         text-decoration: underline;
-        text-decoration-skip-ink: auto; /* This property helps avoid the underline being too close to the text */
+        text-decoration-skip-ink: auto;
+        /* This property helps avoid the underline being too close to the text */
         text-underline-offset: 8px;
 }
 
@@ -82,54 +82,213 @@
 
 }
 
-
-      /* Media Query for Smaller Screens */
-      @media (max-width: 768px) {
+@media only screen and (min-width: 1200px){
         .container {
-          flex-direction: column;
-          margin-top: 2vh;
+                margin-top: 10vh;
+                display: flex;
+                flex-direction: row;
         }
-        .profile-picture{
+        
+        .profile-picture img {
+                object-fit: cover;
+                width: 60vh;
+                height: 60vh;
+                border-radius: 50%;
+                margin-left: -10vh;
+                margin-top: 2vh;
+        }
+        
+        .info {
+                color: white;
+                margin-left: 10vh;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                gap: 3vh;
+        }
+        
+        .info-div1 {
+                background-color: #1C1B23;
+                font-size: xx-large;
+                border: 0.5px solid #3498db;
+                border-radius: 10px;
+        
+                height: auto;
+                width: 70vh;
+                text-align: center;
+                /* Center the text horizontally */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-left: -10vh;
+        
+        }
+        
+        .info-div2 {
+                background-color: #1C1B23;
+                border: 0.5px solid #db343f;
+                border-radius: 10px;
+                height: auto;
+                /* font-size: large; */
+                width: 70vh;
+                margin-left: 10vh;
+                padding: 1vh;
+                margin-right: 10px;
+        }
+        
+        .info-div2 .title {
+                font-size: xx-large;
+                text-align: center;
+                text-decoration: underline;
+                text-decoration-skip-ink: auto;
+                /* This property helps avoid the underline being too close to the text */
+                text-underline-offset: 8px;
+        }
+        
+        .info-div2 .description {
+                text-align: center;
+                color: #8B8A90;
+        }
+        
+        .info-div3 {
+                background-color: #1C1B23;
+                font-size: xx-large;
+                border: 0.5px solid #3498db;
+                border-radius: 10px;
+                height: auto;
+                width: 30vh;
+        
+                text-align: center;
+                /* Center the text horizontally */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-left: -10vh;
+        
+        }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+        .container {
+                flex-direction: column;
+                margin-top: 2vh;
+        }
+
+        .profile-picture {
                 display: flex;
                 align-items: center;
                 justify-content: center;
         }
-      
+
         .profile-picture img {
-          width: 80%; /* Adjust to fit the container */
-          object-fit: cover;
-          height: 30vh;
-          border-radius: 50%;
-          margin-left: 0px;
-          margin-bottom: 3vh;
+                width: 80%;
+                /* Adjust to fit the container */
+                object-fit: cover;
+                height: 50vh;
+                border-radius: 50%;
+                margin-left: 0px;
+                margin-bottom: 3vh;
         }
-      
+
         .info {
-          margin-left: 0; /* Adjust margin for smaller screens */
-          
+                margin-left: 0;
+                /* Adjust margin for smaller screens */
+
         }
-      
+
         .info-div1 {
                 align-self: center;
-          width: 95%; /* Adjust width for smaller screens */
-          margin-left: 0; /* Remove margin for smaller screens */
+                width: 95%;
+                /* Adjust width for smaller screens */
+                margin-left: 0;
+                /* Remove margin for smaller screens */
         }
-      
+
         .info-div2 {
                 align-self: center;
 
-          width: 95%; /* Adjust width for smaller screens */
-          height: auto;
-          margin-left: 0; /* Remove margin for smaller screens */
-          padding: 1vh; /* Adjust padding for smaller screens */
-          margin-top:1vh;
+                width: 95%;
+                /* Adjust width for smaller screens */
+                height: auto;
+                margin-left: 0;
+                /* Remove margin for smaller screens */
+                padding: 1vh;
+                /* Adjust padding for smaller screens */
+                margin-top: 1vh;
         }
-      
+
         .info-div3 {
                 align-self: center;
-          width: 95%; /* Adjust width for smaller screens */
-          margin-left: 0; /* Remove margin for smaller screens */
-          margin-top:1vh;
+                width: 95%;
+                /* Adjust width for smaller screens */
+                margin-left: 0;
+                /* Remove margin for smaller screens */
+                margin-top: 1vh;
         }
-      }
-      
+}
+
+
+/* Media Query for Smaller Screens */
+@media (max-width: 768px) {
+        .container {
+                flex-direction: column;
+                margin-top: 2vh;
+        }
+
+        .profile-picture {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+        }
+
+        .profile-picture img {
+                width: 80%;
+                /* Adjust to fit the container */
+                object-fit: cover;
+                height: 30vh;
+                border-radius: 50%;
+                margin-left: 0px;
+                margin-bottom: 3vh;
+        }
+
+        .info {
+                margin-left: 0;
+                /* Adjust margin for smaller screens */
+
+        }
+
+        .info-div1 {
+                align-self: center;
+                width: 95%;
+                /* Adjust width for smaller screens */
+                margin-left: 0;
+                /* Remove margin for smaller screens */
+        }
+
+        .info-div2 {
+                align-self: center;
+
+                width: 95%;
+                /* Adjust width for smaller screens */
+                height: auto;
+                margin-left: 0;
+                /* Remove margin for smaller screens */
+                padding: 1vh;
+                /* Adjust padding for smaller screens */
+                margin-top: 1vh;
+        }
+
+        .info-div3 {
+                align-self: center;
+                width: 95%;
+                /* Adjust width for smaller screens */
+                margin-left: 0;
+                /* Remove margin for smaller screens */
+                margin-top: 1vh;
+        }
+}
+
+
+
+
+/* @media (max-width: ) */
