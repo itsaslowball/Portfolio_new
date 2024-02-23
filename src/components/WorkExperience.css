@@ -12,7 +12,7 @@
         background-color: #1C1B23;
         margin-left: 5vh;
         padding: 7vh;
-        border-radius: 5vh;
+        border-radius: 1vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -32,7 +32,7 @@
         background-color: #1C1B23;
         margin-left: 5vh;
         padding: 7vh;
-        border-radius: 5vh;
+        border-radius: 1vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
