@@ -48,7 +48,7 @@ export const Contact = () => {
 
   return (
     <div className="contact" id="Contact">
-      <h1>Contact Me</h1>
+      <h3>Contact Me</h3>
 
       <div className="contact-box">
         <div className="inner-box">

@@ -8,7 +8,7 @@ export const Skills = () => {
   const skillData = data.Skills;
   return (
     <div className="skills" id="Skills">
-      <h1
+      <h3
         style={{
           textAlign: "center",
           color: "White",
@@ -17,7 +17,7 @@ export const Skills = () => {
         }}
       >
         Skills
-      </h1>
+      </h3>
       <div
         style={{
           display: "flex",
