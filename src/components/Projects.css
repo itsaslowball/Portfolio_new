@@ -1,24 +1,44 @@
 .project-card {
-      width: 40.2vh;
+      width: 43.2vh;
       background-color: #1C1B23;
       margin: 2vh;
-      height:auto;
+      /* height:; */
       transition: transform 0.3s ease-in-out;
+            height: 61vh;
+                        padding-bottom:1vh
+      /* scrollbar-width: 1px;
+            scrollbar-color: #555 #1c1b23; */
+      
+            /* For WebKit (Chrome, Safari) */
+            /* &::-webkit-scrollbar {
+                  width: 8px;
+            }
+      
+            &::-webkit-scrollbar-thumb {
+                  background-color: #555;
+            }
+      
+            &::-webkit-scrollbar-track {
+                  background-color: #1c1b23;
+            } */
+
 }
-@media (min-width: 764px) {
+
+@media screen and (max-width: 767px) {
       .project-card{
       background-color: #1C1B23;
-            width: 40vh;
+            width: 50vh;
       }
 }
 .tags {
       border: 0.5px solid #41494d;
       border-radius: 5px;
       color: #8B8A90;
+      font-size: small;
       background-color: #14131A;
       width: auto;
       height: auto;
-      padding: 3px;
+      padding: 2px;
 }
 
 .card-img-top {
