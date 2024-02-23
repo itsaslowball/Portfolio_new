@@ -30,6 +30,42 @@
                         ],
                         "github": "https://github.com",
                         "demo": ""
+                },
+                {
+                        "image": "./event1.jpg",
+                        "name": "Project 1",
+                        "description": "This is my project which has been solved and used by me andsio aoidao asifjas aia aidfasiuasf This is my project which has been solved and used by me andsio aoidao asifjas aia aidfasiuas",
+                        "tags": [
+                                "NestJs",
+                                "ReactJs",
+                                "FullStack"
+                        ],
+                        "github": "https://github.com",
+                        "demo": "https://demo.com"
+                },
+                {
+                        "image": "./event1.jpg",
+                        "name": "Project 1",
+                        "description": "This is my project which has been solved and used by me andsio aoidao asifjas aia aidfasiuasf This is my project which has been solved and used by me andsio aoidao asifjas aia aidfasiuas",
+                        "tags": [
+                                "NestJs",
+                                "ReactJs",
+                                "FullStack"
+                        ],
+                        "github": "https://github.com",
+                        "demo": "https://demo.com"
+                },
+                {
+                        "image": "./event1.jpg",
+                        "name": "Project 1",
+                        "description": "This is my project which has been solved and used by me andsio aoidao asifjas aia aidfasiuasf This is my project which has been solved and used by me andsio aoidao asifjas aia aidfasiuas",
+                        "tags": [
+                                "NestJs",
+                                "ReactJs",
+                                "FullStack"
+                        ],
+                        "github": "https://github.com",
+                        "demo": "https://demo.com"
                 }
         ],
         "Skills": [

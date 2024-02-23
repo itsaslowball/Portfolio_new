@@ -1,5 +1,5 @@
 .project-card {
-      width: 53.2vh;
+      width: 40.2vh;
       background-color: #1C1B23;
       margin: 2vh;
       height:auto;
@@ -8,7 +8,7 @@
 @media (min-width: 764px) {
       .project-card{
       background-color: #1C1B23;
-            width: 53vh;
+            width: 40vh;
       }
 }
 .tags {
@@ -22,8 +22,8 @@
 }
 
 .card-img-top {
-      max-height: 27vh;
-      min-height: 27vh;
+      max-height: 25vh;
+      min-height: 25vh;
 }
 
 .card:hover {
