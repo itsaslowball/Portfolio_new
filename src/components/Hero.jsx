@@ -8,7 +8,7 @@ export const Hero = () => {
   return (
     <div className="container" id="About">
       <div className="profile-picture">
-        <img src="./profile.jpg" />
+        <img src="./profile.png" />
       </div>
 
       <div className="info">

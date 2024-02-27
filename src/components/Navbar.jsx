@@ -11,7 +11,7 @@ export const Navbar = () => {
   return (
     <div className={`navbar ${isMobile ? 'mobile' : ''}`}>
       <div className="profile">
-        <img src="./profile.jpg" alt="Profile Icon" />
+        <img src="./profile.png" alt="Profile Icon" />
         <span>Priyanshu</span>
       </div>
 
