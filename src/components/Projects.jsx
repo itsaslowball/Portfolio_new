@@ -8,13 +8,13 @@ import data from '../data.json'
 export const Projects = () => {
   const projectsDetails = data.Projects
   return (
-    <div style={{ marginTop: "10vh" }} id="Projects">
+    <div id="Projects" className="projects">
       <h1
         style={{
           textAlign: "center",
           color: "White",
           marginBottom: "3vh",
-          fontSize: "4vh",
+          fontSize: "3vh",
         }}
       >
         Projects

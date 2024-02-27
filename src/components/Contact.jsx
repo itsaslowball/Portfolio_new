@@ -100,16 +100,16 @@ export const Contact = () => {
             </form>
           </div>
 
-          <div className="socials">
-            <ul>
-              <li>
+          <div className="socials" >
+            <ul >
+              <li >
                 <a
                   href="https://www.linkedin.com/in/your-linkedin"
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{color:'#0C6DFD'}}
                 >
-                  <FaLinkedin />  LinkedIn
+                  <FaLinkedin style={{fontSize:'3vh'}} />  
                 </a>
               </li>
               <li>
@@ -118,7 +118,7 @@ export const Contact = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FaGithub /> Github
+                  <FaGithub style={{fontSize:'3vh'}} /> 
                 </a>
               </li>
               <li>
@@ -128,7 +128,7 @@ export const Contact = () => {
                   rel="noopener noreferrer"
                   style={{color:'#cc7e3f'}}
                 >
-                  <SiLeetcode />  LeetCode
+                  <SiLeetcode style={{fontSize:'3vh'}} />  
                 </a>
               </li>
               <li>
@@ -137,8 +137,9 @@ export const Contact = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{color:'#2f9339'}}
+                  
                 >
-                  <SiGeeksforgeeks />  GeeksforGeeks
+                  <SiGeeksforgeeks style={{fontSize:'3vh'}} />  
                 </a>
               </li>
             </ul>
