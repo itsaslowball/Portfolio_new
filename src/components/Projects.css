@@ -42,6 +42,7 @@
 
 .card:hover {
       /* border:1px solid #d6051a; */
+      background-color: red;
       border-width: 0.5px;
       border-right-color: #5aabe0;
       border-left-color: red;

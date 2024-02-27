@@ -23,7 +23,6 @@ export const WorkExperience = () => {
             style={{
               display: "flex",
               justifyContent: "space-between",
-              gap: "40px",
               color: "#8B8A8F",
               flexWrap: 'wrap',
               fontSize:'14px'
