@@ -25,7 +25,7 @@
                 {
                   "image": "./impact.png",
                   "name": "ImpactNGO",
-                  "description": "Built a web application to address the problem of people and restaurents and other stores who have leftover or extra food, clothes or other items. Through this application, NGO can easily reachout to them",
+                  "description": "Built a web application to address the problem of people and restaurents and other stores who have leftover or extra food, clothes or other ",
                   "tags": [
                     "ReactJs",
                     "Firebase"
