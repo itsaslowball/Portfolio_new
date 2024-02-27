@@ -46,7 +46,7 @@ export const ProjectCard = (params) => {
           </div>
         </div>
 
-        <p class="card-text" style={{ color: "#8B8A90", fontSize: "17px" }}>
+        <p class="card-text" style={{ color: "#8B8A90", fontSize: "15px" }}>
           {params.description}
         </p>
         <div style={{ display: "flex", flexWrap: "wrap" }}>
