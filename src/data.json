@@ -3,70 +3,37 @@
         "Hero": {
                 "intro": "Hey👋, Myself Priyanshu",
                 "title": "Software Developer",
-                "description": "I have worked on various projects which across several domains like frontend, backend, fullstack. I have created several personal projects on MERN stack. Recently i learnt Nextjs. Now I am learning NestJs which is roboust ExpressJs framework",
-                "resume": "https://resume.com"
+                "description": "🚀 React.js | NEXTJs | Node.js | Express.js | MongoDB | SQL | Firebase.🛢️In the early stages of my coding journey, I'm on a quest for knowledge, always exploring the latest in tech. Coding, for me, is turning ideas into reality. Let's connect!",
+                "resume": "https://drive.google.com/file/d/1Vlb8oohrNEDrbQFqblzkTUq2Xm3jhVaJ/view?usp=drive_link"
         },
         "Projects": [
                 {
-                        "image": "./event1.jpg",
-                        "name": "Project 1",
-                        "description": "This is my project which has been solved and used by me andsio aoidao asifjas aia aidfasiuasf This is my project which has been solved and used by me andsio aoidao asifjas aia aidfasiuas",
+                        "image": "./colcomm.jpg",
+                        "name": "ColComm",
+                        "description": "Built a web application to address the problem of students struggling to find guidance from experienced individuals",
                         "tags": [
-                                "NestJs",
                                 "ReactJs",
+                                "NodeJs",
+                                "ExpressJs",
+                                "MongoDB",
+                                "Socket.IO",
                                 "FullStack"
                         ],
-                        "github": "https://github.com",
-                        "demo": "https://demo.com"
-                },
-                {
-                        "image": "./profile.jpg",
-                        "name": "Project 2",
-                        "description": "This is my project which has been solved and used by me andsio aoidao asifjas aia aidfasiuasf",
-                        "tags": [
-                                "MongoDb",
-                                "ReactJs",
-                                "FullStack"
-                        ],
-                        "github": "https://github.com",
+                        "github": "https://github.com/itsaslowball/ColComm---CollegeCommunication",
                         "demo": ""
                 },
                 {
-                        "image": "./event1.jpg",
-                        "name": "Project 1",
-                        "description": "This is my project which has been solved and used by me andsio aoidao asifjas aia aidfasiuasf This is my project which has been solved and used by me andsio aoidao asifjas aia aidfasiuas",
-                        "tags": [
-                                "NestJs",
-                                "ReactJs",
-                                "FullStack"
-                        ],
-                        "github": "https://github.com",
-                        "demo": "https://demo.com"
-                },
-                {
-                        "image": "./event1.jpg",
-                        "name": "Project 1",
-                        "description": "This is my project which has been solved and used by me andsio aoidao asifjas aia aidfasiuasf This is my project which has been solved and used by me andsio aoidao asifjas aia aidfasiuas",
-                        "tags": [
-                                "NestJs",
-                                "ReactJs",
-                                "FullStack"
-                        ],
-                        "github": "https://github.com",
-                        "demo": "https://demo.com"
-                },
-                {
-                        "image": "./event1.jpg",
-                        "name": "Project 1",
-                        "description": "This is my project which has been solved and used by me andsio aoidao asifjas aia aidfasiuasf This is my project which has been solved and used by me andsio aoidao asifjas aia aidfasiuas",
-                        "tags": [
-                                "NestJs",
-                                "ReactJs",
-                                "FullStack"
-                        ],
-                        "github": "https://github.com",
-                        "demo": "https://demo.com"
+                  "image": "./impact.png",
+                  "name": "ImpactNGO",
+                  "description": "Built a web application to address the problem of people and restaurents and other stores who have leftover or extra food, clothes or other items. Through this application, NGO can easily reachout to them",
+                  "tags": [
+                    "ReactJs",
+                    "Firebase"
+                  ],
+                  "github": "https://github.com/rajat1912/ImpactTogether",
+                  "demo": "https://impact-c3d0d.web.app/"
                 }
+               
         ],
         "Skills": [
                 {
