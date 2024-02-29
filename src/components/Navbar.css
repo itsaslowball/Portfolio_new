@@ -3,7 +3,7 @@
 .navbar {
         background-color: #fff;
         color: #333;
-        padding: 35px;
+        padding: 13px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -75,25 +75,27 @@
         .navbar {
                 background-color: #fff;
                 color: #333;
-                /* padding: 35px; */
-                /* display: flex; */
+
                 flex-direction: row;
                 justify-content: space-between;
                 align-items: center;
-                margin-left: 3px;
-                margin-right: 3px;
+
+                margin-left: 2vh;
+                margin-right: 2vh;
                 margin-top: 10px;
-                border-radius: 10px;
-                /* Keep items in a row in mobile view */
-                /* align-items: center; */
+                
+                padding: 0px;
+                border-radius: 3vh;
         }
 
         .profile {
                 order: 1;
                 /* Move profile to the leftmost side */
-                margin-bottom: 5px;
-                margin-left: 15px
+                margin-bottom: 7px;
+                margin-top:7px
+
         }
+        
 
         .links {
                 display: none;

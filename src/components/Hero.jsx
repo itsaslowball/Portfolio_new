@@ -21,7 +21,7 @@ export const Hero = () => {
           {heroData.description}
           </p>
         </div>
-        <a href={heroData.resume}>
+        <a href={heroData.resume} style={{textDecoration:'none'}}>
           <button
             style={{ color: "white" }}
             className="info-div3 btn btn-outline-success"
