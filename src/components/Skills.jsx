@@ -12,7 +12,7 @@ export const Skills = () => {
         style={{
           textAlign: "center",
           color: "White",
-          marginBottom: "1.875 rem",
+          marginBottom: "4vh",
           fontSize: "2.5 rem",
         }}
       >
