@@ -52,16 +52,6 @@ li{
 }
 
 
-/* @media only screen and (min-width: 1200px){
-        .edu-card{
-                width: auto;
-        }
-        .work-card{
-                width: 70vh;
-        }
-} */
-
-
 @media only screen and (max-width: 900px) {
         .experiences{
                 display: flex;
@@ -73,13 +63,20 @@ li{
                 margin:15px;
                 align-self: center;
                 width: auto;
-                padding: 40px;
+                padding: 2vh;
 
         }
         .edu-card{
                 margin:15px;
                 align-self: center;
                 width: auto;
-                padding: 40px;
+                padding: 2vh;
         }
+        .edu-list{
+                gap: 5px;
+        }
+        li{
+                margin-left: 0vh;
+        }
+
 }

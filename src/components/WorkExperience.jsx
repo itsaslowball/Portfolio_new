@@ -8,7 +8,7 @@ export const WorkExperience = () => {
     <div className="work-card" id="Work"
     >
 
-      {WorkExperienceData.map((exp) => (
+      {WorkExperienceData.map((exp, index) => (
         <div
           style={{
             display: "flex",
@@ -17,9 +17,10 @@ export const WorkExperience = () => {
             flexDirection: "column",
             color: "white",
           }}
+          key={index}
         >
           <h3 style={{ color:'rgb(206, 152, 152)', fontSize:'18px' }}>{exp.designation}</h3>
-          <ul
+          <ul className="list"
             style={{
               display: "flex",
               justifyContent: "space-between",

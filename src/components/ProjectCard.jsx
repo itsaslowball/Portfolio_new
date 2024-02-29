@@ -9,18 +9,18 @@ import "./Projects.css";
 export const ProjectCard = (params) => {
   return (
     <div
-      class="card project-card"
+      className="card project-card"
       style={{
         backgroundColor: "#1C1B23",
       }}
     >
-      <img src={params.image} class="card-img-top" alt="..." />
-      <div class="card-body">
+      <img src={params.image} className="card-img-top" alt="..." />
+      <div className="card-body">
         <div style={{ display: "flex", justifyContent: "space-between" }}>
           <div>
-            <h7 class="card-title" style={{ color: "white" }}>
+            <p className="card-title" style={{ color: "white" }}>
               {params.name}
-            </h7>
+            </p>
           </div>
 
           <div>
@@ -46,12 +46,12 @@ export const ProjectCard = (params) => {
           </div>
         </div>
 
-        <p class="card-text" style={{ color: "#8B8A90", fontSize: "15px" }}>
+        <p className="card-text" style={{ color: "#8B8A90", fontSize: "15px" }}>
           {params.description}
         </p>
         <div style={{ display: "flex", flexWrap: "wrap" }}>
-          {params.tags.map((tag) => (
-            <p className="tags" style={{ marginRight: "9px" }}>
+          {params.tags.map((tag, index) => (
+            <p className="tags" style={{ marginRight: "9px" }} key={index}>
               {tag}
             </p>
           ))}
