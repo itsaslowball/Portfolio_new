@@ -83,8 +83,9 @@
 transition: transform 0.3s ease-in-out;
 }
   .info-div3:hover {
-          transform: scale(1.05);
+          transform: scale(1.19);
           border-color: green;
+          background-color: rgb(7, 58, 7);
   }
 
 @media only screen and (min-width: 1200px) {
