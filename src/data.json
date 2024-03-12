@@ -10,17 +10,18 @@
                 {
                         "image": "./colcomm.jpg",
                         "name": "ColComm",
-                        "description": "Built a web application to address the problem of students struggling to find guidance from experienced individuals",
+                        "description": "Built a web application to address the problem of students struggling to find guidance from experienced individuals. To maintain the harmony and peace in the chat ML model is included to filter out the hate and abusive texts.",
                         "tags": [
                                 "ReactJs",
                                 "NodeJs",
                                 "ExpressJs",
                                 "MongoDB",
                                 "Socket.IO",
-                                "FullStack"
+                                "FullStack",
+                                "Machine Learning"
                         ],
-                        "github": "https://github.com/itsaslowball/ColComm---CollegeCommunication",
-                        "demo": ""
+                        "github": "https://github.com/itsaslowball/ColComm",
+                        "demo": "https://colcomm.onrender.com/"
                 },
                 {
                   "image": "./impact.png",
