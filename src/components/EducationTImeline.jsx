@@ -8,7 +8,7 @@ import data from "../data.json";
 
 export const EducationTimeline = () => {
   return (
-    <>
+    <div style={{ margin: "0.5rem" }}>
       <h2
         style={{
           color: "white",
@@ -31,7 +31,7 @@ export const EducationTimeline = () => {
                 borderRight: "7px solid  rgb(33, 150, 243)",
               }}
               date={exp.startDate}
-              iconStyle={{ background: "red", color: "#fff" }}
+              iconStyle={{ background: "orange", color: "#fff" }}
               // icon={<WorkIcon />}
             >
               <h3 className="vertical-timeline-element-title">{exp.degree}</h3>
@@ -60,6 +60,6 @@ export const EducationTimeline = () => {
           );
         })}
       </VerticalTimeline>
-    </>
+    </div>
   );
 };
