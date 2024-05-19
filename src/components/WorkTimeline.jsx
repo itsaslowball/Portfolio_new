@@ -5,6 +5,7 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import data from "../data.json";
+import "./timeline.css";
 
 export const WorkTimeline = () => {
   return (
@@ -57,7 +58,7 @@ export const WorkTimeline = () => {
                   <h5>Worked On</h5>
                   {exp.techStack &&
                     exp.techStack.map((stack) => {
-                      return <span style={{ color: "white" }}>{stack} </span>;
+                      return <span className="stack">{stack}</span>;
                     })}
                 </>
               )}

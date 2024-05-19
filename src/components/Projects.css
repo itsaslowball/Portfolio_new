@@ -1,7 +1,7 @@
-.projects{
+.projects {
       margin-left: 11vh;
       margin-right: 11vh;
-      margin-top:15vh;
+      margin-top: 15vh;
 }
 
 .project-card {
@@ -12,10 +12,11 @@
 }
 
 @media screen and (max-width: 767px) {
-      .projects{
+      .projects {
             margin-left: 0;
             margin-right: 0;
       }
+
       .project-card {
             background-color: #1C1B23;
             width: 37vh;
@@ -24,14 +25,17 @@
 
 
 .tags {
-      border: 0.5px solid #41494d;
       border-radius: 5px;
       color: #8B8A90;
       font-size: small;
       background-color: #14131A;
       width: auto;
       height: auto;
-      padding: 2px;
+      padding: 5px;
+      border-width: 0.5px;
+      border-left-color: red;
+      border-style: solid;
+      transform: scale(1.05);
 }
 
 .card-img-top {
@@ -55,7 +59,7 @@
 
 .tags:hover {
       border-width: 0.5px;
-      border-left-color: red;
+      border-left-color: green;
       border-style: solid;
       box-shadow: 0px 4px 10px rgb(66, 66, 66);
 }
