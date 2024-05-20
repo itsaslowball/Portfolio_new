@@ -91,14 +91,23 @@ export const Contact = () => {
 
               <input className="btn btn-primary" type="submit" value="Send" />
             </form>
-            <div style={{display:'flex', justifyContent:'center', alignItems:'center', marginTop:'10px'}}>{showToast && <MyToast />}</div>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                marginTop: "10px",
+              }}
+            >
+              {showToast && <MyToast />}
+            </div>
           </div>
 
           <div className="socials">
             <ul>
               <li>
                 <a
-                  href="https://www.linkedin.com/in/your-linkedin"
+                  href="https://www.linkedin.com/in/itsaslowball/"
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{ color: "#0C6DFD" }}
@@ -108,7 +117,7 @@ export const Contact = () => {
               </li>
               <li>
                 <a
-                  href="https://github.com/your-github"
+                  href="https://github.com/itsaslowball"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -117,7 +126,7 @@ export const Contact = () => {
               </li>
               <li>
                 <a
-                  href="https://leetcode.com/your-leetcode"
+                  href="https://leetcode.com/u/itsaslowball_leetcode/"
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{ color: "#cc7e3f" }}
@@ -127,7 +136,7 @@ export const Contact = () => {
               </li>
               <li>
                 <a
-                  href="https://geeksforgeeks.org/your-geeksforgeeks"
+                  href="https://www.geeksforgeeks.org/user/itsaslowball"
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{ color: "#2f9339" }}
@@ -137,7 +146,6 @@ export const Contact = () => {
               </li>
             </ul>
           </div>
-
         </div>
       </div>
     </div>
