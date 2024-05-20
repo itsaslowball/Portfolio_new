@@ -9,7 +9,10 @@ import "./timeline.css";
 
 export const WorkTimeline = () => {
   return (
-    <div style={{ margin: "0.5rem" }}>
+    <div
+      style={{ margin: "0.5rem" }}
+      id="Experiences"
+    >
       <h2
         style={{
           color: "white",
