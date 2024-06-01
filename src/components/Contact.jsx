@@ -146,6 +146,11 @@ export const Contact = () => {
               </li>
             </ul>
           </div>
+          <div>
+            <a href="https://visitcount.itsvg.in">
+              <img src="https://visitcount.itsvg.in/api?id=priyans34&label=Profile%20Views&color=5&icon=0&pretty=true" />
+            </a>
+          </div>
         </div>
       </div>
     </div>
