@@ -18,13 +18,25 @@ export const Hero = () => {
         <div className="info-div2">
           <p className="title">{heroData.title}</p>
           <p className="description">
-          {heroData.description}
+            {heroData.description}
+            <br /> <br />
+            <hr
+              style={{
+                width: "50%",
+                margin: "20px auto",
+                border: "0",
+                borderTop: "1px solid #ccc",
+              }}
+            />
+            <span>{heroData.stack}</span>
           </p>
         </div>
-        <a className="info-div3" href={heroData.resume} style={{textDecoration:'none'}}>
-          <div
-            style={{ color: "white" }}
-          >
+        <a
+          className="info-div3"
+          href={heroData.resume}
+          style={{ textDecoration: "none" }}
+        >
+          <div style={{ color: "white" }}>
             <h3>My Resume</h3>
           </div>
         </a>

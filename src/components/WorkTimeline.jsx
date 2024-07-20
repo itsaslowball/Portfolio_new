@@ -9,10 +9,7 @@ import "./timeline.css";
 
 export const WorkTimeline = () => {
   return (
-    <div
-      style={{ margin: "0.5rem" }}
-      id="Experiences"
-    >
+    <div style={{ margin: "0.5rem" }} id="Experiences">
       <h2
         style={{
           color: "white",
@@ -51,7 +48,7 @@ export const WorkTimeline = () => {
               <p>
                 <ul>
                   {exp.description.map((point) => {
-                    return <li>{point}</li>;
+                    return <li style={{marginBottom:'15px'}}>{point}</li>;
                   })}
                 </ul>
               </p>
@@ -59,6 +56,7 @@ export const WorkTimeline = () => {
                 <>
                   <br></br>
                   <h5>Worked On</h5>
+                  <br />
                   <div style={{ display: "flex", flexWrap: "wrap" }}>
                     {exp.techStack &&
                       exp.techStack.map((stack) => {

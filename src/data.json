@@ -2,7 +2,8 @@
   "Hero": {
     "intro": "Hey👋, Myself Priyanshu",
     "title": "Software Developer",
-    "description": "🚀 ReactJs | NEXTJs | NodeJs | NestJs | ExpressJs | MongoDB | SQL | Firebase. 🛢️In the early stages of my coding journey, I'm on a quest for knowledge, always exploring the latest in tech. Coding, for me, is turning ideas into reality. Let's connect!",
+    "stack": "NestJs | ReactJs | React-Query | NodeJs | ExpressJs | NextJs | MongoDB | SQL | Firebase | Jest | Playwright",
+    "description": "In the early stages of my coding journey, I'm on a quest for knowledge. As I progress in my career, I am constantly exploring the latest in tech to stay updated and improve my skill set. I am committed to enhancing my knowledge and contributing effectively to the tech community. I am excited to connect with fellow developers and industry professionals.",
     "resume": "https://drive.google.com/file/d/1Vlb8oohrNEDrbQFqblzkTUq2Xm3jhVaJ/view?usp=drive_link"
   },
   "Projects": [
@@ -23,10 +24,28 @@
       "demo": "https://colcomm.onrender.com/"
     },
     {
+      "image": "./hotel.png",
+      "name": "Hotels.com",
+      "description": "Developed a hotel booking platform using NestJs and React. Users can search, book, list, and update hotels, and view past reservations. Integrated Stripe for payments. React Query is utilized for efficient data fetching, mutation, and caching.",
+      "tags": [
+        "NestJs",
+        "ReactJs",
+        "MongoDB",
+        "Stripe",
+        "React Query",
+        "Cloudinary"
+      ],
+      "github": "https://github.com/rajat1912/ImpactTogether",
+      "demo": "https://impact-c3d0d.web.app/"
+    },
+    {
       "image": "./impact.png",
       "name": "ImpactNGO",
       "description": "Built a web application to address the problem of people and restaurents and other stores who have leftover or extra food, clothes or other ",
-      "tags": ["ReactJs", "Firebase"],
+      "tags": [
+        "ReactJs",
+        "Firebase"
+      ],
       "github": "https://github.com/rajat1912/ImpactTogether",
       "demo": "https://impact-c3d0d.web.app/"
     }
@@ -34,37 +53,55 @@
   "Skills": [
     {
       "title": "Backend",
-      "skills": ["NodeJs", "NestJs", "ExpressJs"]
+      "skills": [
+        "NestJs",
+        "NodeJs",
+        "ExpressJs"
+      ]
     },
     {
       "title": "Frontend",
       "skills": [
+        "ReactJs",
+        "React-Query",
+        "NextJs",
         "HTML",
         "CSS",
-        "ReactJs",
-        "NextJs",
-        "Bootstrap",
-        "Tailwind-CSS"
+        "Tailwind-CSS",
+        "Bootstrap"
       ]
     },
     {
       "title": "Programming Languages",
       "skills": [
-        "C",
-        "C++",
         "Javascript",
         "Typescript",
+        "C",
+        "C++",
         "C# (basic)",
-        "Python (basic)"
+        "Python (basic)",
+        "Golang (basic)"
       ]
     },
     {
       "title": "Databases",
-      "skills": ["MongoDB", "MySQL"]
+      "skills": [
+        "MongoDB",
+        "MySQL",
+        "Firebase"
+      ]
     },
     {
       "title": "Others",
-      "skills": ["Git", "Data Structures", "DBMS", "Operating System", "OOPS"]
+      "skills": [
+        "Jest",
+        "Playwright",
+        "Git",
+        "Data Structures",
+        "DBMS",
+        "Operating System",
+        "OOPS"
+      ]
     }
   ],
   "WorkExperience": [
@@ -73,13 +110,26 @@
       "company": "Contentstack",
       "designation": "Associate Software Engineer Intern",
       "description": [
-        "Developed several triggers and actions for automation workflows.",
+        "Developed several triggers and actions for automation workflows which are used by the customers to automate their workflows.",
         "Implemented server-side validations for users and inputs to enhance security and prevent escalations.",
-        "Implemented publish/unpublish functionalities for various components",
-        "Conducted demos for new features and enhancements.",
+        "Implemented publish/unpublish functionalities in the workflow. So that user can publish or unpublish any component from the workflow at any given time without deleting the component from the workflow.",
+        "Create tests for the implemented features using Jest and Playwright",
         "Collaborated in a team to develop TechX, the company's internal website."
       ],
-      "techStack": ["NestJs", "ReactJs", "NextJs", "NodeJs", "Git", "Docker"],
+      "techStack": [
+        "NestJs",
+        "ReactJs",
+        "React-Query",
+        "NextJs",
+        "NodeJs",
+        "Git",
+        "Docker",
+        "Playwright",
+        "Jest",
+        "Typescript",
+        "Javascript",
+        "Golang"
+      ],
       "jobLocation": "Bengaluru"
     },
     {
@@ -91,7 +141,6 @@
         "Managed day to day activities of CSI",
         "Conducted annual technical fest Technologix"
       ],
-
       "jobLocation": "Mysuru"
     }
   ],

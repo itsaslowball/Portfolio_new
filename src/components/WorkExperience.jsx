@@ -33,7 +33,7 @@ export const WorkExperience = () => {
             <li>{exp.startDate} </li>
             <li>{exp.jobLocation}</li>
           </ul>
-          <p style={{ color: "#8B8A8F", fontSize:'14px' }}>{exp.description}</p>
+          <p style={{ color: "#8B8A8F", fontSize:'14px'}}>{exp.description}</p>
         </div>
       ))}
     </div>
