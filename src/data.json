@@ -1,9 +1,9 @@
 {
   "Hero": {
     "intro": "Hey👋, Myself Priyanshu",
-    "title": "Software Developer",
-    "stack": "NestJs | ReactJs | React-Query | NodeJs | ExpressJs | NextJs | MongoDB | SQL | Firebase | Jest | Playwright",
-    "description": "In the early stages of my coding journey, I'm on a quest for knowledge. As I progress in my career, I am constantly exploring the latest in tech to stay updated and improve my skill set. I am committed to enhancing my knowledge and contributing effectively to the tech community. I am excited to connect with fellow developers and industry professionals.",
+    "title": "Software Engineer",
+    "stack": "NestJs | ReactJs | React-Query | NodeJs | ExpressJs | NextJs | MongoDB | SQL | PostgreSQL | Jest",
+    "description": "I’m an ambitious software engineer committed to continuous growth and innovation. With a solid foundation in both backend and frontend technologies, I build scalable and high-performance applications using tools like NestJs, ReactJs, and Cloudflare Workers. I am committed to enhancing my knowledge and contributing effectively to the tech community",
     "resume": "https://drive.google.com/file/d/1Vlb8oohrNEDrbQFqblzkTUq2Xm3jhVaJ/view?usp=drive_link"
   },
   "Projects": [
@@ -48,6 +48,26 @@
       ],
       "github": "https://github.com/rajat1912/ImpactTogether",
       "demo": "https://impact-c3d0d.web.app/"
+    },
+    {
+      "image": "./medium.png",
+      "name": "Serverless Medium",
+      "description": "Built a serverless blogging platform using Cloudflare Workers and Hono for scalability. Utilized Prisma ORM with Prisma Accelerate for efficient connection pooling. Enabled type-safe data sharing via an NPM package. Implemented secure authentication with access and refresh tokens and used Zod for data validation.",
+      "tags": [
+        "Cloudflare Workers",
+        "HONO",
+        "Prisma",
+        "Prisma Accelerate",
+        "Zod",
+        "PostgreSQL",
+        "Serverless",
+        "TypeScript",
+        "NPM",
+        "ReactJs",
+        "Reacct Query"
+      ],
+      "github": "https://github.com/itsaslowball/Medium-serverless",
+      "demo": "https://medium-serverless.onrender.com/"
     }
   ],
   "Skills": [
@@ -56,7 +76,10 @@
       "skills": [
         "NestJs",
         "NodeJs",
-        "ExpressJs"
+        "ExpressJs",
+        "Serverless",
+        "HONO",
+        "Cloudflare Workers"
       ]
     },
     {
@@ -88,7 +111,10 @@
       "skills": [
         "MongoDB",
         "MySQL",
-        "Firebase"
+        "Firebase",
+        "PostgreSQL",
+        "Prisma",
+        "Mongoose"
       ]
     },
     {
@@ -107,8 +133,8 @@
   "WorkExperience": [
     {
       "startDate": "22-07-2024 - present",
-      "start":"22-07-2024",
-      "end":"",
+      "start": "22-07-2024",
+      "end": "",
       "company": "Contentstack",
       "designation": "Associate Software Engineer",
       "description": [
@@ -134,8 +160,8 @@
     },
     {
       "startDate": "04-01-2024 - 21-07-2024",
-      "start":"04-01-2024",
-      "end":"21-07-2024",
+      "start": "04-01-2024",
+      "end": "21-07-2024",
       "company": "Contentstack",
       "designation": "Associate Software Engineer Intern",
       "description": [
@@ -163,8 +189,8 @@
     },
     {
       "startDate": "04-01-2022 - 10-07-2024",
-      "start":"04-01-2022",
-      "end":"10-07-2024",
+      "start": "04-01-2022",
+      "end": "10-07-2024",
       "company": "CSI-JSSSTU",
       "designation": "General Secretary",
       "description": [
