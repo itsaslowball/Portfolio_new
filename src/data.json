@@ -39,17 +39,6 @@
       "demo": "https://hotel-booking-uvov.onrender.com"
     },
     {
-      "image": "./impact.png",
-      "name": "ImpactNGO",
-      "description": "Built a web application to address the problem of people and restaurents and other stores who have leftover or extra food, clothes or other ",
-      "tags": [
-        "ReactJs",
-        "Firebase"
-      ],
-      "github": "https://github.com/rajat1912/ImpactTogether",
-      "demo": "https://impact-c3d0d.web.app/"
-    },
-    {
       "image": "./medium.png",
       "name": "Serverless Medium",
       "description": "Built a serverless blogging platform using Cloudflare Workers and Hono for scalability. Utilized Prisma ORM with Prisma Accelerate for efficient connection pooling. Enabled type-safe data sharing via an NPM package. Implemented secure authentication with access and refresh tokens and used Zod for data validation.",
@@ -68,6 +57,17 @@
       ],
       "github": "https://github.com/itsaslowball/Medium-serverless",
       "demo": "https://medium-serverless.onrender.com/"
+    },
+    {
+      "image": "./impact.png",
+      "name": "ImpactNGO",
+      "description": "Built a web application to address the problem of people and restaurents and other stores who have leftover or extra food, clothes or other ",
+      "tags": [
+        "ReactJs",
+        "Firebase"
+      ],
+      "github": "https://github.com/rajat1912/ImpactTogether",
+      "demo": "https://impact-c3d0d.web.app/"
     }
   ],
   "Skills": [
