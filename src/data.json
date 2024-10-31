@@ -2,8 +2,8 @@
   "Hero": {
     "intro": "Hey👋, Myself Priyanshu",
     "title": "Software Engineer",
-    "stack": "NestJs | ReactJs | React-Query | NodeJs | ExpressJs | NextJs | MongoDB | SQL | PostgreSQL | Jest",
-    "description": "I’m an ambitious software engineer committed to continuous growth and innovation. With a solid foundation in both backend and frontend technologies, I build scalable and high-performance applications using tools like NestJs, ReactJs, and Cloudflare Workers. I am committed to enhancing my knowledge and contributing effectively to the tech community",
+    "stack": "NestJs | ReactJs | React-Query | NodeJs | ExpressJs | MongoDB | PostgreSQL | Jest",
+    "description": "As a software engineer at @Contentstack, I specialize in developing automation workflows and crafting full-stack, cloud-native solutions such as ColComm and Serverless Medium. I leverage a robust skill set in backend architecture using NestJs/ExpressJs. I enjoy experimenting with innovative tools and methodologies, from microservices with Hono to testing with Jest and Playwright.",
     "resume": "https://drive.google.com/file/d/1Vlb8oohrNEDrbQFqblzkTUq2Xm3jhVaJ/view?usp=drive_link"
   },
   "Projects": [
@@ -70,66 +70,76 @@
       "demo": "https://impact-c3d0d.web.app/"
     }
   ],
-  "Skills": [
-    {
-      "title": "Backend",
-      "skills": [
-        "NestJs",
-        "NodeJs",
-        "ExpressJs",
-        "Serverless",
-        "HONO",
-        "Cloudflare Workers"
-      ]
-    },
-    {
-      "title": "Frontend",
-      "skills": [
-        "ReactJs",
-        "React-Query",
-        "NextJs",
-        "HTML",
-        "CSS",
-        "Tailwind-CSS",
-        "Bootstrap"
-      ]
-    },
-    {
-      "title": "Programming Languages",
-      "skills": [
-        "Javascript",
-        "Typescript",
-        "C",
-        "C++",
-        "C# (basic)",
-        "Python (basic)",
-        "Golang (basic)"
-      ]
-    },
-    {
-      "title": "Databases",
-      "skills": [
-        "MongoDB",
-        "MySQL",
-        "Firebase",
-        "PostgreSQL",
-        "Prisma",
-        "Mongoose"
-      ]
-    },
-    {
-      "title": "Others",
-      "skills": [
-        "Jest",
-        "Playwright",
-        "Git",
-        "Data Structures",
-        "DBMS",
-        "Operating System",
-        "OOPS"
-      ]
-    }
-  ],
+"Skills": [
+  {
+    "title": "Backend Development",
+    "skills": [
+      "microservices",
+      "NestJs",
+      "NodeJs",
+      "ExpressJs",
+      "HONO",
+      "Serverless",
+      "Cloudflare Workers",
+      "Redis",
+      "GRPC"
+    ]
+  },
+  {
+    "title": "Frontend Development",
+    "skills": [
+      "ReactJs",
+      "React-Query",
+      "NextJs",
+      "Tailwind-CSS",
+      "Bootstrap",
+      "HTML",
+      "CSS"
+    ]
+  },
+  {
+    "title": "Programming Languages",
+    "skills": [
+      "JavaScript",
+      "TypeScript",
+      "Golang",
+      "C",
+      "C++",
+      "Python (basic)",
+      "C# (basic)"
+    ]
+  },
+  {
+    "title": "Database Management",
+    "skills": [
+      "MongoDB",
+      "PostgreSQL",
+      "MySQL",
+      "Prisma",
+      "Mongoose"
+    ]
+  },
+  {
+    "title": "APIs & Protocols",
+    "skills": [
+      "REST",
+      "GraphQL",
+      "GRPC"
+    ]
+  },
+  {
+    "title": "Others",
+    "skills": [
+      "Git",
+      "Jest",
+      "Playwright",
+            "Data Structures",
+            "DBMS",
+            "Operating System",
+            "OOPS"
+    ]
+  }
+],
   "WorkExperience": [
     {
       "startDate": "22-07-2024 - present",

@@ -26,11 +26,14 @@ export const Skills = () => {
           // gap: "0.625 rem",
         }}
       >
-        <SkillCard title={skillData[0].title} skills={skillData[0].skills} />
-        <SkillCard title={skillData[1].title} skills={skillData[1].skills} />
-        <SkillCard title={skillData[2].title} skills={skillData[2].skills} />
-        <SkillCard title={skillData[3].title} skills={skillData[3].skills} />
-        <SkillCard title={skillData[4].title} skills={skillData[4].skills} />
+        {
+          skillData.map((skill) => {
+            return <SkillCard
+              title={skill.title}
+              skills={skill.skills}
+            />;
+          })
+        }
       </div>
     </div>
   );

@@ -100,29 +100,34 @@ export const WorkTimeline = () => {
                 <i>
                   {exp.company}
                   <span style={{ fontSize: "20px" }}>, {exp.jobLocation}</span>
-                  <span style={{fontSize:"15px", fontWeight:"lighter"}}> ~  {time} </span>
+                  <span style={{ fontSize: "15px", fontWeight: "lighter" }}>
+                    {" "}
+                    ~ {time}{" "}
+                  </span>
                 </i>
               </h5>
               <h5 className="vertical-timeline-element-subtitle"></h5>
 
-              {exp.description && (
-                <p>
-                  <ul>
-                    {exp.description.map((point) => {
-                      return (
-                        <li
-                          style={{
-                            marginBottom: "15px",
-                            fontWeight: "normal",
-                          }}
-                        >
-                          {point}
-                        </li>
-                      );
-                    })}
-                  </ul>
-                </p>
-              )}
+              <div style={{maxHeight:"15rem", overflow:"scroll"}}>
+                {exp.description && (
+                  <p>
+                    <ul>
+                      {exp.description.map((point) => {
+                        return (
+                          <li
+                            style={{
+                              marginBottom: "15px",
+                              fontWeight: "normal",
+                            }}
+                          >
+                            {point}
+                          </li>
+                        );
+                      })}
+                    </ul>
+                  </p>
+                )}
+              </div>
 
               {exp.techStack && (
                 <>

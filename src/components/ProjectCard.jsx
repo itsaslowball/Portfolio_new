@@ -46,10 +46,31 @@ export const ProjectCard = (params) => {
           </div>
         </div>
 
-        <p className="card-text" style={{ color: "#8B8A90", fontSize: "15px" }}>
-          {params.description}
-        </p>
-        <div style={{ display: "flex", flexWrap: "wrap" }}>
+        <div
+          style={{
+            maxHeight: "7rem",
+            overflow: "scroll",
+            marginBottom: "1rem",
+          }}
+        >
+          <p
+            className="card-text"
+            style={{ color: "#8B8A90", fontSize: "15px" }}
+          >
+            {params.description}
+          </p>
+        </div>
+
+        <div
+          style={{
+            paddingLeft: "0.5rem",
+            paddingTop: "0.5rem",
+            display: "flex",
+            flexWrap: "wrap",
+            maxHeight: "5rem",
+            overflow: "scroll",
+          }}
+        >
           {params.tags.map((tag, index) => (
             <p className="tags" style={{ marginRight: "9px" }} key={index}>
               {tag}
